@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos.css">
+    <title>Fuerza Gravitatoria</title>
+</head>
+<body>
+    <header>
+        <h1>
+            FUERZA GRAVITATORIA
+        </h1>
+        <h2>
+            ¿Qué es la fuerza de gravedad?
+        </h2>
+        <p>La fuerza de gravedad (o simplemente «gravedad») es una de las interacciones fundamentales de la naturaleza, que hace que cuerpos dotados de masa se atraen entre sí con mayor intensidad en la medida en que sean más voluminosos o estén más cerca unos de otros. El principio que rige esta interacción se conoce como “gravitación” o “interacción gravitatoria”, y responde en física a lo descrito por la Ley de Gravitación Universal.
+        </p>
+        <img src="tierra.jpeg" class="center">
+        <p>Se trata de la misma atracción que ejerce la Tierra sobre los cuerpos y objetos que están cerca de ella, nosotros incluidos, y que hace a las cosas caer. También determina los movimientos de los astros espaciales (planetas orbitando al Sol o lunas y satélites artificiales orbitando a su vez dichos planetas.
+
+            A diferencia de las otras interacciones fundamentales en el Universo (que son las fuerzas nucleares fuertes y débiles, y el electromagnetismo), la fuerza de gravedad predomina inexplicablemente a lo largo de enormes distancias, mientras las demás se dan en distancias mucho más cortas.
+            
+            La gravedad se estudia en distintos marcos teóricos dependiendo de si se trata de un enfoque mecánico (clásico) o relativista.
+            
+            Usualmente las unidades que se utilizan para trabajar con la gravedad son las unidades de peso como los kilogramos de fuerza, o los Newtons (N). Esto se debe a que el peso de un cuerpo es igual a su masa por la aceleración de la gravedad que la fuerza gravitatoria de la Tierra ejerce sobre él. Es decir, no hay que confundir gravedad con fuerza gravitatoria. La gravedad es una aceleración y no una fuerza como el peso.
+            
+            La aceleración de la gravedad en la superficie terrestre alcanza unos 9,80665 m/s2.
+        </p>
+        <section>
+            <h2>Imagenes</h2>
+            <img src="form.jpeg" class="center" width="587" height="329">
+            <img src="form1.jpeg" class="center" width="587" height="329">
+            <h2>Videos</h2>
+            <iframe class="center" width="587" height="329" src="https://www.youtube.com/embed/AZY_fgoOKXc" title="Física | Ley de Gravitación Universal | Ejemplo 5" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </section>
+
+    <h1>EJERCICIO FUERZA GRAVITATORIA</h1>
+    <img class="center" src="ejercicio.PNG" alt="">
+
+    <div class="respuesta">
+        <label >Presione para hacer el calculo de Fuerzas: </label>
+        <input type="number" id=n>
+        <button onclick="fuer()">Fuerzas</button>
+    </div>
+        <h3>DATOS:</h3>
+        <h4>m tierra=5.98*10^28</h4>
+        <h4>m sol=2*10^30</h4>
+        <h4>m luna=7.36*10^22</h4>
+        <h4>r tierra-sol=149.6*10^9</h4>
+        <h4>r tierra-luna=384.4*10^6</h4>
+        <h4>G=6.67*10^(-11)</h4>
+        <h4>F tierra-sol=(G*m tierra*m sol)/r tierra-sol^2</h4>
+        <h4>F tierra-luna=(G*m tierra*m luna)/r tierra-luna^2</h4>
+        <h2>Respuesta de la fuerza gravitacional TIERRA Y SOL</h2>
+        <div id="fuerza1"></div>
+        <h2>Respuesta de la fuerza gravitacional TIERRA Y LUNA</h2>
+        <div id="fuerza2"></div>
+
+    <script src="fuerza gravedad.js"></script> 
+</body>
+<footer>
+    <h5>Autor:Jorge Miguel Mamani Mamani</h5>
+</footer>
+</html>
